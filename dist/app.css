@@ -6,14 +6,19 @@
 }
 
 #root header {
+  margin: 0;
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
+  background-image: url("../img/bg-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 85%;
+  padding-top: 30px;
+  position: relative;
 }
 #root header .navbar {
   width: 1200px;
   margin: auto;
-  background-color: #bf1e23;
-  margin-top: 30px;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -27,9 +32,46 @@
   font-weight: bold;
 }
 #root header .navbar-list li:hover {
-  color: #fcd66c;
+  color: #fcdc31;
 }
 #root header .navbar-list i {
   margin-left: 5px;
   vertical-align: middle;
+}
+#root header .jumbotron {
+  color: #fff;
+  width: 1200px;
+  margin: auto;
+  position: absolute;
+  top: 250px;
+  left: 360px;
+}
+#root header .jumbotron h2 {
+  font-size: 26px;
+  font-weight: bold;
+}
+#root header .jumbotron h1 {
+  font-size: 52px;
+}
+#root header .jumbotron h1:first-of-type {
+  color: #fcdc31;
+}
+#root header .jumbotron button {
+  border-radius: 50px;
+  height: 30px;
+  width: 150px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: #bf1e23;
+  border: none;
+  margin-top: 30px;
+}
+#root header .jumbotron button i {
+  margin-left: 5px;
+}
+#root .delivery-list {
+  list-style: none;
+  display: inline-block;
 }
