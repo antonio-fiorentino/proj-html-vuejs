@@ -51,7 +51,7 @@
       justify-content: center;
       font-size: 18px;
       font-weight: bold;
-      position: absolute;
+      position: fixed;
       right: 25px;
       top: 10px;
 
@@ -164,6 +164,8 @@
     @include container;
     margin-top: 100px;
     text-align: center;
+    margin-bottom: 100px;
+
 
     h1{
       margin-bottom: 50px;
@@ -232,9 +234,61 @@
       margin-top: 30px;
       text-align: center;
       margin-left: 25px;
-      margin-bottom: 1000px;
     }
 
+  }
+
+  .discount{
+    height: 500px;
+    width: 100%;
+    margin-bottom: 100px;
+    background-image: url("../img/bg-effect.svg"),url("../img/bg-discount.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+  }
+
+  .categories{
+    @include container;
+
+
+    .menu-button{
+      display: flex;
+      justify-content: space-between;
+
+
+      h2{
+        font-size: 30px;
+        margin-top: 20px;
+      }
+      button{
+        border-radius: 50px;
+        height: 30px;
+        width: 200px;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        background-color: $button-color;
+        border: none;
+      }
+    }
+
+    .box-categories{
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+
+      .box{
+        height: 180px;
+        width: 285px;
+        background-color: gainsboro;
+        margin-bottom: 20px;
+      }
+    }
   }
 
 }
