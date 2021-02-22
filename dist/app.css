@@ -22,7 +22,7 @@
 #root header .add {
   height: 50px;
   width: 50px;
-  background-color: #bf1e23;
+  background-color: #4683d7;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -89,7 +89,7 @@
   font-size: 10px;
   font-weight: bold;
   color: white;
-  background-color: #bf1e23;
+  background-color: #4683d7;
   border: none;
   margin-top: 30px;
 }
@@ -184,7 +184,7 @@
   display: inline-block;
 }
 #root .popular-dishes .name-dishes span {
-  color: #bf1e23;
+  color: #4683d7;
   font-size: 12px;
 }
 #root .popular-dishes button {
@@ -195,7 +195,7 @@
   font-size: 10px;
   font-weight: bold;
   color: white;
-  background-color: #bf1e23;
+  background-color: #4683d7;
   border: none;
   margin-top: 30px;
   text-align: center;
@@ -230,7 +230,7 @@
   font-size: 10px;
   font-weight: bold;
   color: white;
-  background-color: #bf1e23;
+  background-color: #4683d7;
   border: none;
 }
 #root .categories .box-categories {
@@ -282,7 +282,7 @@
   background-position: 80% 55%;
   height: 500px;
   width: 100%;
-  margin-bottom: 1000px;
+  margin-bottom: 100px;
   padding-top: 100px;
 }
 #root .download-app .google-app {
@@ -298,5 +298,81 @@
   font-size: 44px;
 }
 #root .download-app .google-app .download-store {
-  padding-top: 80px;
+  padding-top: 60px;
+}
+#root .download-app .google-app .download-store img:first-of-type {
+  padding-right: 15px;
+}
+#root .news {
+  width: 1200px;
+  margin: auto;
+}
+#root .news .latest-news {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+#root .news .latest-news h2 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+#root .news .latest-news button {
+  border-radius: 50px;
+  height: 30px;
+  width: 200px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: #4683d7;
+  border: none;
+}
+#root .news .new-food {
+  display: flex;
+  justify-content: space-between;
+}
+#root .news .new-food .pancake-burger {
+  width: 577.5px;
+  height: 433.125px;
+  background-size: contain;
+  background-image: url("../img/bg-pancake-burger.jpg");
+}
+#root .news .new-food .milkshake {
+  width: 577.5px;
+  height: 433.125px;
+  background-size: contain;
+  background-image: url("../img/bg-new-milkshake-menu.jpg");
+  background-repeat: no-repeat;
+}
+#root .news .paragraph {
+  display: flex;
+  justify-content: space-between;
+}
+#root .news .paragraph-pancake {
+  width: 577.5px;
+  height: 300px;
+}
+#root .news .paragraph-milkshake {
+  width: 577.5px;
+  height: 300px;
+}
+#root .news .paragraph h2 {
+  font-size: 30px;
+  margin: 25px 0px 15px 0px;
+}
+#root .news .paragraph * {
+  text-align: center;
+}
+#root footer {
+  width: 100%;
+  height: 1500px;
+  background-image: url("../img/bg-footer-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 80% 55%;
+}
+#root footer .footer-container {
+  width: 1400px;
+  margin: auto;
+  background-color: red;
 }
