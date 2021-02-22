@@ -1,3 +1,11 @@
+.yellow-color {
+  color: #fcdc31;
+}
+
+.center {
+  text-align: center;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -365,14 +373,52 @@
 }
 #root footer {
   width: 100%;
-  height: 1500px;
+  padding-top: 120px;
+  height: 1200px;
   background-image: url("../img/bg-footer-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 80% 55%;
+  font-size: 12px;
+  font-weight: bold;
+}
+#root footer .first-list {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 #root footer .footer-container {
   width: 1400px;
   margin: auto;
-  background-color: red;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+#root footer .footer-container li {
+  list-style: none;
+  padding-bottom: 15px;
+}
+#root footer .footer-container li a img {
+  width: 150px;
+  height: 50.3px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+#root footer .footer-container li h3 {
+  text-transform: uppercase;
+}
+#root footer .footer-container li .voucher {
+  height: 150px;
+  width: 150px;
+}
+#root footer .signup img {
+  height: 40.32px;
+  width: 188.64px;
+}
+#root footer .signup h2 {
+  font-size: 26px;
+}
+#root footer .signup h3 {
+  color: #fff;
+  font-weight: normal;
 }
