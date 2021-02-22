@@ -4,35 +4,35 @@ var app = new Vue({
    menuCategories:[
      {
        name: 'APPETIZERS',
-       image: `$bg-appetizers`,
+       image: 'img/bg-appetizers.jpg',
      },
      {
        name: 'BURGERS',
-       image: `$bg-burgers`,
+       image: 'img/bg-burgers.jpg',
      },
      {
        name: 'PIZZAS',
-       image: `$bg-pizzas`,
+       image: 'img/bg-pizza.jpg',
      },
      {
        name: 'FRIES',
-       image: `$bg-fries`,
+       image: 'img/bg-chips.jpg',
      },
      {
        name: 'SIDES',
-       image: `$bg-sides`,
+       image: 'img/bg-sides.jpg',
      },
      {
        name: 'DESSERTS',
-       image: `$bg-desserts`,
+       image: 'img/bg-desserts.jpg',
      },
      {
        name: 'BEVERAGES',
-       image: `$bg-beverages`,
+       image: 'img/bg-beverages.jpg',
      },
      {
        name: 'SPECIALS',
-       image: `$bg-specials`,
+       image: 'img/bg-specials.jpg',
      },
 
    ]

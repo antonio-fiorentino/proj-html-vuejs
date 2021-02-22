@@ -127,34 +127,40 @@
 
         <div class="box-categories">
 
-          <div class="box">
-
-          </div>
-          <div class="box">
-
-          </div>
-          <div class="box">
-
-          </div>
-          <div class="box">
-
-          </div>
-          <div class="box">
-
-          </div>
-          <div class="box">
-
-          </div>
-          <div class="box">
-
-          </div>
-          <div class="box">
+          <div class="box" v-for="item in menuCategories">
+            <div class="opacity">
+              <h4>{{item.name}}</h4>
+            </div>
+            <img :src="`${item.image}`">
 
           </div>
 
         </div>
 
+        <div class="icon-mid">
+          <img src="img/icon-mid.jpg" alt="">
+        </div>
+
       </section>
+
+      <!-- Download App -->
+
+      <section class="download-app">
+
+        <div class="google-app">
+          <div class="title-app">
+            <h3>Download Our</h3>
+            <h2>Ordering App</h2>
+          </div>
+          <div class="download-store">
+            <img src="img/play-store-badge-200x67.png" alt="">
+            <img src="img/app-store-badge-200x67.png" alt="">
+          </div>
+        </div>
+
+      </section>
+
+      <!-- /Download App -->
 
     </div>
 
