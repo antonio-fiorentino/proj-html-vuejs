@@ -16,6 +16,10 @@
   width: 370px;
 }
 
+.hover-dishes{
+  transition: .2s;
+  background-color: rgba(0,0,0,0.3);
+}
 
 
 .yellow-color{
@@ -37,6 +41,7 @@
 #root{
   position: relative;
 
+
   header{
     margin: 0;
     width: 100%;
@@ -47,6 +52,7 @@
     background-position: 50% 85%;
     padding-top: 30px;
     position: relative;
+
 
 
 
@@ -69,6 +75,7 @@
         color: #fff;
       }
 
+
     }
 
     .navbar{
@@ -86,9 +93,16 @@
           color: white;
           margin-left: 50px;
           font-weight: bold;
-        }
-        li:first-of-type{
-          color:$yellow-color;
+
+          a{
+            color: #fff;
+            text-decoration: none;
+          }
+          a:hover{
+            color: $yellow-color;
+            transition: .2s;
+          }
+
         }
         li:hover{
           color:$yellow-color;
@@ -201,6 +215,38 @@
         background-image: url($donut-burger);
         background-size: cover;
         background-position: 50% 70%;
+      }
+      .opacity{
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0,0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .card{
+          height: 70px;
+          width: 70px;
+          border-radius: 50%;
+          background-color: rgba(0,0,0,0.7);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 10px;
+
+          i{
+            color: #fff;
+            font-size: 22px;
+          }
+        }
+        div{
+          color: #fff;
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 12px;
+        }
+
       }
 
     }
@@ -475,11 +521,20 @@
       justify-content: space-between;
       margin-bottom: 100px;
 
+
         li{
           list-style: none;
           padding-bottom: 15px;
 
+          a:hover{
+            color: $yellow-color;
+            transition: .2s;
+          }
+
+
           a{
+            color:#fff;
+            text-decoration: none;
             img{
               width: 150px;
               height: 50.3px;
@@ -544,6 +599,9 @@
         font-weight: normal;
         margin-top: 30px;
 
+        a{
+          color: #fff;
+        }
         i{
           margin-left: 12px;
         }
@@ -558,6 +616,11 @@
           color: #fff;
           text-decoration: none;
         }
+        a:hover{
+          color: $yellow-color;
+          transition: .2s;
+        }
+
       }
 
     }

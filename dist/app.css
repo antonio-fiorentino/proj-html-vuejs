@@ -1,3 +1,8 @@
+.hover-dishes {
+  transition: 0.2s;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 .yellow-color {
   color: #fcdc31;
 }
@@ -61,8 +66,13 @@
   margin-left: 50px;
   font-weight: bold;
 }
-#root header .navbar-list li:first-of-type {
+#root header .navbar-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+#root header .navbar-list li a:hover {
   color: #fcdc31;
+  transition: 0.2s;
 }
 #root header .navbar-list li:hover {
   color: #fcdc31;
@@ -164,6 +174,35 @@
   background-image: url("../img/bg-donut.jpg");
   background-size: cover;
   background-position: 50% 70%;
+}
+#root .popular-dishes .dishes .opacity {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#root .popular-dishes .dishes .opacity .card {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#root .popular-dishes .dishes .opacity .card i {
+  color: #fff;
+  font-size: 22px;
+}
+#root .popular-dishes .dishes .opacity div {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
 }
 #root .popular-dishes .name-dishes {
   padding-left: 25px;
@@ -399,6 +438,14 @@
   list-style: none;
   padding-bottom: 15px;
 }
+#root footer .footer-container li a:hover {
+  color: #fcdc31;
+  transition: 0.2s;
+}
+#root footer .footer-container li a {
+  color: #fff;
+  text-decoration: none;
+}
 #root footer .footer-container li a img {
   width: 150px;
   height: 50.3px;
@@ -458,6 +505,9 @@
   font-weight: normal;
   margin-top: 30px;
 }
+#root footer .signup .social-icon a {
+  color: #fff;
+}
 #root footer .signup .social-icon i {
   margin-left: 12px;
 }
@@ -470,4 +520,8 @@
 #root footer .signup .copyright a {
   color: #fff;
   text-decoration: none;
+}
+#root footer .signup .copyright a:hover {
+  color: #fcdc31;
+  transition: 0.2s;
 }
